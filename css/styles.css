@@ -678,6 +678,71 @@ button {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.form-subscribe {
+  display: flex;
+}
+
+.subscribe-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.form-input-wrapper {
+  margin-right: 24px;
+}
+
+.form-input-wrapper:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.form-input-subscribe {
+  width: 264px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 16px;
+  outline: none;
+  color: var(--accent-light-color);
+  transition: border-color var(--transition-duration-and-funs);
+}
+
+.form-input-subscribe:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.form-submit-subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  min-width: 165px;
+  height: 40px;
+  align-self: center;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: var(--accent-light-color);
+  background: var(--accent-color);
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: var(--accent-color);
+  border-radius: 4px;
+  transition: background-color var(--transition-duration-and-funs);
+}
+
+.form-submit-subscribe:hover,
+.form-submit-subscribe:focus {
+  background-color: #404bbf;
+  bottom: none;
+}
+
 /* ----------- MODAL WINDOW ---------- */
 
 .backdrop {
